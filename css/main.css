@@ -8,7 +8,6 @@
   src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
 }
 
-/*---------------------------------------------*/
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -20,36 +19,11 @@ body, html {
 	font-family: Ubuntu-Regular, sans-serif;
 }
 
-/*---------------------------------------------*/
-a {
-	font-family: Ubuntu-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-  color: #fff;
-}
-
-
-/*---------------------------------------------*/
 input {
 	outline: none;
 	border: none;
 }
 
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -59,7 +33,6 @@ button {
 button:hover {
 	cursor: pointer;
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
@@ -186,7 +159,6 @@ img {
   position: absolute;
   top: 40px;
   left: 35px;
- 
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -206,7 +178,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 .login-form-btn {
   font-family: Ubuntu-Bold;
@@ -267,4 +238,3 @@ img {
 .login-form-btn:hover:before {
   opacity: 1;
 }
-
