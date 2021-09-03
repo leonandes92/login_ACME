@@ -14,11 +14,6 @@
 	box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: Ubuntu-Regular, sans-serif;
-}
-
 input {
 	outline: none;
 	border: none;
@@ -34,7 +29,7 @@ button:hover {
 	cursor: pointer;
 }
 
-.limiter {
+.App {
   width: 100%;
   margin: 0 auto;
 }
@@ -73,7 +68,6 @@ button:hover {
 
 .login-form {
   width: 100%;
-  
   border-radius: 10px;
   background-color: #fff;
 }
@@ -96,7 +90,6 @@ img {
   font-size: 20px;
   color: #555555;
   line-height: 1.2;
-
   display: block;
   width: 100%;
   background: transparent;
@@ -122,17 +115,11 @@ img {
   left: 0;
   width: 0;
   height: 1px;
-
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-
   background: #b40320;
-  background: -webkit-linear-gradient(left, #c41919, #860945, #d40a0a);
-  background: -o-linear-gradient(left, #c41919, #860945, #d40a0a);
-  background: -moz-linear-gradient(left, #c41919, #860945, #d40a0a);
-  background: linear-gradient(left, #c41919, #860945, #d40a0a);
 }
 
 /*------------------------------------------------------------------
@@ -154,7 +141,6 @@ img {
   color: #fff;
   line-height: 1.2;
   text-transform: uppercase;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -166,15 +152,9 @@ img {
   min-width: 160px;
   height: 42px;
   border-radius: 21px;
-
   background: #b40320;
-  background: -webkit-linear-gradient(left, #c41919, #c23636, #d40a0a);
-  background: -o-linear-gradient(left, #c41919, #c23636, #d40a0a);
-  background: -moz-linear-gradient(left, #c41919, #c23636, #d40a0a);
-  background: linear-gradient(left, #c41919, #c23636, #d40a0a);
   position: relative;
   z-index: 1;
-
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
